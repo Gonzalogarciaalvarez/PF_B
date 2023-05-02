@@ -1,0 +1,232 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+nav table {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+nav th {
+  padding: 10px;
+}
+
+nav th a {
+  color: rgb(15, 190, 196);
+  text-decoration: none;
+}
+
+nav th a:hover {
+  text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  padding-right: 30px;
+}
+section table{
+		border-collapse: separate;
+		border-spacing: 0 10px;
+}
+	tr {
+		margin-bottom: 10px;
+	}
+
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plato {
+  width: 300px;
+  margin: 20px;
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.plato img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.plato h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.plato p {
+  font-size: 14px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+footer div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer div div {
+  margin: 10px;
+  text-align: left;
+  flex-basis: 40%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer div div ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer div div li {
+  margin-bottom: 20px;
+}
+
+footer div div li:last-child {
+  margin-bottom: 0;
+}
+
+footer div div a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer div div a:hover {
+  text-decoration: underline;
+}
+
+footer div img {
+  margin: 0 10px;
+}
+
+/* Estilos para el menú */
+.menu {
+  justify-content: center;
+  align-items: center;
+}
+.menu-item {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  width: 300px;
+}
+.menu-item h2 {
+  margin-top: 0;
+}
+.menu-item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu-item li {
+  margin-bottom: 10px;
+}
+.menu-item select {
+  margin-top: 10px;
+}
+
+form {
+	margin: auto;
+	max-width: 500px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #4B0082;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #F5F5F5;
+	color: #4B0082;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	background-color: #4B0082;
+	color: #FFFFFF;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #800080;
+}
+#map {
+  text-align: center;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
